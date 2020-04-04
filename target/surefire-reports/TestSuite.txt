@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.516 s <<< FAILURE! - in TestSuite
+feature(Runner.TestRunnner)  Time elapsed: 13.005 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:37638
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Sachins-MacBook-Pro.local', ip: 'fe80:0:0:0:f3:2638:3c25:56d4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: driver.version: RemoteWebDriver
+	at Runner.TestRunnner.feature(TestRunnner.java:31)
+Caused by: org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:37638
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Sachins-MacBook-Pro.local', ip: 'fe80:0:0:0:f3:2638:3c25:56d4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:37638
+	at Runner.TestRunnner.feature(TestRunnner.java:31)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at Runner.TestRunnner.feature(TestRunnner.java:31)
+
